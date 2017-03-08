@@ -1,0 +1,123 @@
+ // Landscape phones and down
+  @media (max-width: 480px) {
+	  
+	   }
+ 
+  // Landscape phone to portrait tablet
+  @media (max-width: 767px) { ... }
+ 
+  // Portrait tablet to landscape and desktop
+  @media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+  // Large desktop
+  @media (min-width: 1200px) { ... }
+  
+ .contact_form{
+	 width:80%;
+	 height:100%;
+	 margin:0px auto;
+	 padding-top:2%;
+	 padding-bottom:2%;
+	 padding-left:3%;
+	 padding-right:3%;
+	 background-color:#33b5e5;
+	 
+ }
+ 
+ .contact_form fieldset{
+	 padding:10%;
+	 border:1px solid #ffffff;
+	 
+ }
+ .contact_form input{
+	 padding-left:1%;
+	
+ }
+ 
+  .container .row .col-md-12 .form-horizontal.contact_form fieldset legend {
+	background-color:#33b5e5;
+} 
+ /* Button Style */
+button.submit {
+    background-color: #68b12f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
+    background: -webkit-linear-gradient(top, #68b12f, #50911e);
+    background: -moz-linear-gradient(top, #68b12f, #50911e);
+    background: -ms-linear-gradient(top, #68b12f, #50911e);
+    background: -o-linear-gradient(top, #68b12f, #50911e);
+    background: linear-gradient(top, #68b12f, #50911e);
+    border: 1px solid #509111;
+    border-bottom: 1px solid #5b992b;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #9fd574;
+    -webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
+    -moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -o-box-shadow: 0 1px 0 0 #9fd574 inset;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #396715;
+}
+button.submit:hover {
+    opacity:.85;
+    cursor: pointer; 
+}
+button.submit:active {
+    border: 1px solid #20911e;
+    box-shadow: 0 0 10px 5px #356b0b inset; 
+    -webkit-box-shadow:0 0 10px 5px #356b0b inset ;
+    -moz-box-shadow: 0 0 10px 5px #356b0b inset;
+    -ms-box-shadow: 0 0 10px 5px #356b0b inset;
+    -o-box-shadow: 0 0 10px 5px #356b0b inset;
+     
+}
+
+
+.contact_form input:focus, .contact_form textarea:focus { /* add this to the already existing style */
+    padding-right:70px;
+}
+
+.contact_form input, .contact_form textarea { /* add this to the already existing style */
+    -moz-transition: padding .25s; 
+    -webkit-transition: padding .25s; 
+    -o-transition: padding .25s;
+    transition: padding .25s;
+}
+
+
+.container .row .col-md-12 .form-horizontal.contact_form fieldset .col-md-5 .form-group .input-group input,
+.container .row .col-md-12 .form-horizontal.contact_form fieldset .col-md-5 .form-group label{
+	color: #FFF;
+}
+.container .row .col-md-12 .form-horizontal.contact_form fieldset .col-md-5 .form-group placeholder {
+	color: #FFF;
+}
+
+/*estlizando placeholder*/
+.input-class::-webkit-input-placeholder { /* Chrome, Safari, Opera */
+  color: #ffffff;
+  font-style: italic;
+}
+ 
+.input-class:-moz-placeholder { /* Firefox 18- */
+   color: #ffffff;
+  font-style: italic;
+  opacity: 1;
+}
+ 
+.input-class::-moz-placeholder {  /* Firefox 19+ */
+   color: #ffffff;
+  font-style: italic;
+  opacity: 1;
+}
+ 
+.input-class:-ms-input-placeholder { /* IE10+ */ 
+  color: #ffffff;
+  font-style: italic; 
+}
